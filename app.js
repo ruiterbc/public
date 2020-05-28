@@ -1,5 +1,5 @@
 'use strict'
-console.log('Uma mensagem escondida!');
+
 let today = new Date();
 // Obtém a data/hora atual
 let data = new Date();
@@ -25,7 +25,7 @@ let str_hora = hora + ':' + min;
 let dias = new Array(
  'domingo','segunda','terça','quarta','quinta','sexta','sábado'
 );
-
+console.log('Uma mensagem escondida!');
 //alert('Hoje é ' + dias[data.getDay()]);
 
 let formatDate = today.toDateString();
